@@ -7,10 +7,10 @@ class Solution {
             if(max < sides[i]){
                 max = sides[i];
                 mmm = sides[0]+sides[1]+sides[2] - max;
-            } else{
+            } else {
                 max = max;
                 mmm = sides[0]+sides[1]+sides[2] - max;
-            }
+            }    
         }   
         if(max < mmm){
             answer = 1;
