@@ -7,6 +7,6 @@ class Solution {
             answer[j] = my_string.substring(i,  my_string.length());
             j++;  
         } Arrays.sort(answer);
-        return answer;
+         return answer;
     }
 }
