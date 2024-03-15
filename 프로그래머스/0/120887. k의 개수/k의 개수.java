@@ -9,10 +9,8 @@ class Solution {
             for(int e = 0; e < bb.length; e++){
                 if(bb[e].contains(kk)){
                  answer++;     
-                }
-               
-            }
-            
+                } 
+            } 
         }
         return answer;
     }
