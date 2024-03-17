@@ -6,9 +6,7 @@ class Solution {
 		my[num1] = my[num2];
 		my[num2] = a;
 			
-		for(int i = 0; i < my.length; i++) {
-			answer += my[i];
-		}	
+		answer = String.valueOf(my);	
         return answer;
     }
 }
